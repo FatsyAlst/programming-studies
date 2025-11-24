@@ -1,0 +1,110 @@
+"""Functions for calculating steps in exchanging currency.
+
+Python numbers documentation: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+
+Overview of exchanging currency when travelling: https://www.compareremit.com/money-transfer-tips/guide-to-exchanging-currency-for-overseas-travel/
+"""
+
+
+def exchange_money(budget, exchange_rate):
+    """
+
+    :param budget: float - amount of money you are planning to exchange.
+    :param exchange_rate: float - unit value of the foreign currency.
+    :return: float - exchanged value of the foreign currency you can receive.
+    """
+
+    return float(budget)/float(exchange_rate)
+
+
+def get_change(budget, exchanging_value):
+    """
+
+    :param budget: float - amount of money you own.
+    :param exchanging_value: float - amount of your money you want to exchange now.
+    :return: float - amount left of your starting currency after exchanging.
+    """
+
+    return float(budget) - float(exchanging_value)
+
+
+def get_value_of_bills(denomination, number_of_bills):
+    """
+
+    :param denomination: int - the value of a bill.
+    :param number_of_bills: int - total number of bills.
+    :return: int - calculated value of the bills.
+    """
+
+    return float(denomination) * int(number_of_bills)
+
+
+def get_number_of_bills(amount, denomination):
+    """
+
+    :param amount: float - the total starting value.
+    :param denomination: int - the value of a single bill.
+    :return: int - number of bills that can be obtained from the amount.
+    """
+
+    return float(amount) // int(denomination)
+
+
+def get_leftover_of_bills(amount, denomination):
+    """
+
+    :param amount: float - the total starting value.
+    :param denomination: int - the value of a single bill.
+    :return: float - the amount that is "leftover", given the current denomination.
+    """
+
+    return float(amount) % float(denomination)
+
+
+def exchangeable_value(budget, exchange_rate, spread, denomination):
+    """
+    Calculate the maximum value of foreign currency bills you can obtain after exchange.
+    
+    This function simulates a real-world currency exchange scenario where:
+    - You start with a budget in your home currency (e.g., EUR)
+    - You want to exchange it to another currency (e.g., USD)
+    - The exchange process includes a fee (spread)
+    - You can only receive whole bills (no partial bills)
+    
+    Process breakdown:
+    1. Convert the spread percentage to decimal form (e.g., 10% becomes 0.10)
+    2. Add the spread as a fee to the base exchange rate
+       Example: If exchange_rate is 1.20 and spread is 10%:
+       - fee_percentage = 10 / 100 = 0.10
+       - total_rate = 1.20 + (1.20 * 0.10) = 1.20 + 0.12 = 1.32
+    3. Convert your budget to the foreign currency using total_rate
+       Example: budget=127.25, total_rate=1.32
+       - converted_value = 127.25 / 1.32 = 96.40 (approximately)
+    4. Calculate how many whole bills you can get (floor division)
+       Example: converted_value=96.40, denomination=20
+       - number_of_bills = 96.40 // 20 = 4 bills (loses the remaining 16.40)
+    5. Multiply the number of bills by denomination to get the total value
+       Example: 4 bills * 20 = 80
+       This represents the maximum value you can actually receive (no partial bills allowed)
+    
+    Note: The reason we use floor division (//) and then multiply by denomination is because
+    in the real world, you cannot receive partial bills. If you have 96.40 in foreign currency
+    but bills are only available in denominations of 20, you can only take 4 complete bills
+    worth 80 total, leaving 16.40 as leftover that cannot be exchanged.
+
+    :param budget: float - the amount of money you are planning to exchange (home currency)
+    :param exchange_rate: float - the unit value of the foreign currency
+    :param spread: int - percentage taken as an exchange fee (as a whole number, e.g., 10 for 10%)
+    :param denomination: int - the value of a single bill in the foreign currency
+    :return: int - maximum value in foreign currency you can receive as whole bills only
+    
+    Example:
+    >>> exchangeable_value(127.25, 1.20, 10, 20)
+    80
+    # Explanation: 127.25 EUR with 1.20 rate + 10% spread = 1.32 effective rate
+    # 127.25 / 1.32 ≈ 96.40 USD available, but only 4 whole bills of 20 = 80 USD maximum
+    """
+
+    fee_percentage = float(spread) / 100
+    total_rate = float(exchange_rate) + float(exchange_rate) * fee_percentage
+    return float(budget) / total_rate // float(denomination) * int(denomination)

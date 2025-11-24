@@ -1,0 +1,55 @@
+Honda CB 500F
+2023
+Medium
+500cc
+Street
+Commuting,Sports
+15000
+
+Yamaha YZF-R1
+2023
+High
+1000cc
+Sport
+Racing,Track-Day
+28000
+
+Kawasaki Ninja 250
+2022
+Low
+250cc
+Street
+Commuting
+8500
+
+Suzuki GSX-S750
+2022
+Medium
+750cc
+Street
+Commuting,Sports
+18000
+
+Harley-Davidson Street 750
+2021
+Medium
+750cc
+Cruiser
+Touring,Commuting
+12000
+
+BMW F 850 GS
+2023
+High
+850cc
+Adventure
+Off-Road,Touring
+20000
+
+KTM 390 Duke
+2023
+Low
+390cc
+Street
+Commuting
+5000
