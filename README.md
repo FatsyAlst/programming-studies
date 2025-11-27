@@ -19,9 +19,17 @@ This workspace is organized by source and purpose (exercises, coursework, media,
 
 **Structure**
 
-- `Exercism/` : solutions and practice exercises organized by track and exercise.
-- `HackerRank/` : practice problems and solutions for HackerRank exercises.
+All files and folders now follow kebab-case naming conventions (lowercase with hyphens) for better consistency and readability:
+
+- `exercism/` : solutions and practice exercises organized by track and exercise.
+- `hackerank/` : practice problems and solutions for HackerRank exercises.
 - `media/` : supporting assets (images, reference files) used by exercises or notes.
-- `Python/Courses/` : course materials, notebooks, and assignment files from online courses.
+- `project-euler.ipynb` : Project Euler problem solutions and implementations.
+- `python/courses/` : course materials, notebooks, and assignment files from online courses:
+  - `michigan/` : University of Michigan courses (Python for Everybody series).
+  - `udemy/` : Udemy course materials and exercises.
+  - `university-of-colorado-boulder/` : CU Boulder Python courses (fundamentals and functions).
+  - `university-of-toronto/` : University of Toronto programming courses.
+- `usp/` : university coursework and class assignments.
 - `playground.py` : a small scratch file for quick experiments.
 - `README.md` : this file — a short guide to the repository.
