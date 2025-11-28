@@ -1,35 +1,123 @@
-# Programming Studies
+<div align="center">
 
-This repository collects my personal programming exercises, coursework, and practice problems. It serves as a workspace for learning, tracking progress, and keeping small experiments organized. I maintain solutions to exercises from platforms such as Exercism and HackerRank, course assignments, and miscellaneous practice files.
+# 📚 Programming Studies
 
-**Purpose**: personal learning, reference, and portfolio for practice code and assignments.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Status**: active — this `README.md` will be updated as new folders and files are added.
+*A curated collection of programming exercises, coursework, and practice problems*
 
-**Table of Contents**
-- **Overview**: short description and goals.
-- **Structure**: high-level layout of folders.
-- **How to use**: how to navigate and run code.
-- **Maintaining this README**: how to add entries when you add content.
-- **Contact / Notes**: optional personal notes.
+[Overview](#-overview) • [Structure](#-repository-structure) • [Courses](#-courses) • [Practice](#-practice-platforms)
 
-**Overview**
+</div>
 
-This workspace is organized by source and purpose (exercises, coursework, media, recorded notes). Files are mostly Python exercises and course assignments, grouped into subfolders. Use this repository to review past exercises, re-run assignments, or continue ongoing practice.
+---
 
-**Structure**
+## 🎯 Overview
 
-All files and folders now follow kebab-case naming conventions (lowercase with hyphens) for better consistency and readability:
+This repository serves as my personal workspace for learning and tracking programming progress. It contains solutions to exercises from various platforms, course assignments, and experimental code snippets—all organized for easy reference and continuous practice.
 
-- `exercism/` : solutions and practice exercises organized by track and exercise.
-- `hackerank/` : practice problems and solutions for HackerRank exercises.
-- `media/` : supporting assets (images, reference files) used by exercises or notes.
-- `project-euler.ipynb` : Project Euler problem solutions and implementations.
-- `python/courses/` : course materials, notebooks, and assignment files from online courses:
-  - `michigan/` : University of Michigan courses (Python for Everybody series).
-  - `udemy/` : Udemy course materials and exercises.
-  - `university-of-colorado-boulder/` : CU Boulder Python courses (fundamentals and functions).
-  - `university-of-toronto/` : University of Toronto programming courses.
-- `usp/` : university coursework and class assignments.
-- `playground.py` : a small scratch file for quick experiments.
-- `README.md` : this file — a short guide to the repository.
+**Purpose:** Personal learning, reference, and portfolio showcase  
+**Status:** 🟢 Active and regularly updated  
+**Focus:** Python programming and computer science fundamentals
+
+---
+
+## 📂 Repository Structure
+
+All files follow **kebab-case** naming conventions for consistency and readability.
+
+```
+programming-studies/
+│
+├── 📁 ai/                                    # AI courses (Anthropic, etc.)
+├── 📁 exercism/                              # Exercism solutions
+├── 📁 hackerank/                             # HackerRank challenges
+├── 📁 media/                                 # Screenshots and images
+├── 📁 python/
+│   └── courses/                              # Python course materials
+│       ├── michigan/                         # University of Michigan
+│       ├── udemy/                            # Udemy courses
+│       ├── university-of-colorado-boulder/   # University of Colorado Boulder
+│       └── university-of-toronto/            # University of Toronto
+├── 📁 usp/                                   # University of São Paulo coursework
+├── 🐍 playground.py                          # Scratch file for quick tests
+└── 📓 project-euler.ipynb                    # Project Euler problem solutions
+```
+
+---
+
+## 🎓 Courses
+
+### University of Michigan
+
+- **Python for Everybody**
+  - Getting started with Python
+  - Python Data Structures
+
+### University of Colorado Boulder
+
+- Introduction to Python Fundamentals
+- Introduction to Python Functions
+
+### University of Toronto
+
+- **Learn to Program**
+  - The Fundamentals
+  - Crafting Quality Code
+
+### Udemy
+
+- Python 3 courses and practical projects
+
+---
+
+## 💻 Practice Platforms
+
+| Platform | Focus | Status |
+|----------|-------|--------|
+| 🏋️ [Exercism](https://exercism.org/) | Code practice & mentorship | Active |
+| 💼 [HackerRank](https://www.hackerrank.com/) | Algorithm challenges | Active |
+| 🧮 [Project Euler](https://projecteuler.net/) | Mathematical problems | In Progress |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Jupyter Notebook (for `.ipynb` files)
+
+### Running Examples
+
+```bash
+# Clone the repository
+git clone https://github.com/FatsyAlst/programming-studies.git
+
+# Navigate to any exercise
+cd programming-studies/exercism/python
+
+# Run a Python file
+python 1-hello-world.py
+```
+
+---
+
+## 📝 Notes
+
+- All solutions are my own implementations
+- Code follows PEP 8 style guidelines
+- Notebooks include detailed explanations and thought processes
+- Feel free to explore and learn from the solutions!
+
+---
+
+<div align="center">
+
+**Made with ❤️ and lots of ☕** (and energy drinks lol)
+
+⭐ Star this repo if you find it helpful!
+
+</div>
