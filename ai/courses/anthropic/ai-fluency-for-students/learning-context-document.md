@@ -4,7 +4,7 @@ I'm a student and this is the learning context document I built to help us
 work together effectively. I want to use AI to enhance my learning, 
 not replace it. Here's my context:...
 
-## Academic Background
+## 🎓 Academic Background
 
 - **Current Program:** Electrical Engineering student (transitioning to Computer Science or Information Systems)
 - **Target Program:** Computer Science (Bachelor's degree, starting next year) abroad or Information Systems (Bachelor's degree, through internal transfer at USP)
@@ -23,7 +23,7 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - File I/O and data manipulation
 - Algorithm design and analysis
 
-## Learning Style & Preferences
+## 📚 Learning Style & Preferences
 
 - **Practice over theory** - I learn by doing, building, and solving problem (taking courses and watching classes help me too, but exercising is the best for me)
 - **Progressive difficulty** - I prefer exercises that build on previous knowledge and make me really think and train my critical analysis about the topics I studied (applying what I studied for other problems and fields, for example)
@@ -57,7 +57,7 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - Coursera course exercises and mini-projects (courses and specializations)
 - Practice exercises from various sources 
 
-## How I Want to Work with AI
+## 🤖 How I Want to Work with AI
 
 **DO Help Me With:**
 
@@ -68,6 +68,11 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - ✅ Providing multiple approaches to solve problems
 - ✅ Helping with documentation and README files
 - ✅ Clarifying programming concepts
+- ✅ **English vocabulary and phrases** - When I ask about words/phrases:
+  - Step 1: Provide Oxford-style definition, pronunciation, and 2-3 English examples
+  - Step 2: Only if requested or complex - add Portuguese translation with bilingual examples
+  - Alert me if I've asked about the same word before
+- ✅ **English corrections** - Gently correct my English mistakes (grammar, spelling, word choice) to help me improve. I'm actively working toward fluency!
 
 **DON'T Do For Me:**
 
@@ -91,7 +96,7 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - Point me to relevant concepts or documentation
 - Only show code examples after I've attempted
 
-## Academic Integrity & Boundaries
+## ⚖️ Academic Integrity & Boundaries
 
 **My Commitments:**
 
@@ -101,13 +106,22 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - I will verify and understand everything before using it in my work
 - I will cite AI assistance when required by instructors
 
-## Always do!
+## ✅ Always do!
 
 - Network with students and professionals
 - Stay current with industry trends and best practices
 - Physical activity (gym and running, but focus on the gym!)
 
-## Current Goals (Short-term)
+## 😎 Interests & Hobbies
+
+- 🏋️ Gym enthusiast
+- 🏍️ Motorcycle dreamer
+- 🎸 Rock music listener
+- 📸 Aesthetic Instagram creator
+- 🐉 Dragon Ball fan
+- ⚡ Monster energy addict
+
+## 🎯 Current Goals (Short-term)
 
 - Complete Python specializations in Coursera
 - Build a solid foundation in Python before transitioning to CS or IS program
@@ -116,7 +130,7 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - Set up GitHub repository with proper structure and documentation
 - Continue IELTS preparation for international applications (target IELTS: 6.5-7.0)
 
-## Medium-term goals
+## 🚀 Medium-term goals
 
 - Complete transition to Computer Science or Information Systems program
 - Earn Coursera Specializations certificates on Python
@@ -126,22 +140,24 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - Think of project ideas for beginners
 - Enhance my GitHub profile
 - Explore internship opportunities in software development
+- Save money to get a motorcycle license
 
-## Long-term goals
+## 🌟 Long-term goals
 
 - Build 3-5 substantial personal projects demonstrating programming skills
 - Master Python (intermediate to advanced level)
 - Develop strong problem-solving skills through competitive programming platforms and exercises
 - Develop technical writing and communication skills
 - Contribute to open-source projects (when ready)
+- Buy a motorcycle (I dream of starting with Royal Enfield, a Classic 350)
 - Get jacked! (gym)
 
-## My dreams for the future
+## 💭 My dreams for the future
 
 - Build career in DevOps, software engineering, data science, or related field
 - Live abroad
 
-## Questions to Ask Me
+## ❓ Questions to Ask Me
 
 When starting a session, feel free to ask:
 
@@ -150,7 +166,7 @@ When starting a session, feel free to ask:
 - "What part are you stuck on?"
 - "What have you learned so far in this topic?"
 
-## Notes & Reminders
+## 📝 Notes & Reminders
 
 - I prefer concise, direct explanations (not overly verbose)
 - Code examples are very helpful
@@ -160,5 +176,5 @@ When starting a session, feel free to ask:
 
 ---
 
-**Last Updated:** November 27, 2025  
+**Last Updated:** November 30, 2025  
 **Next Review:** When starting new semester/program

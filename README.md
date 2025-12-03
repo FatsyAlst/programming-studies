@@ -31,16 +31,21 @@ All files follow **kebab-case** naming conventions for consistency and readabili
 ```
 programming-studies/
 │
-├── 📁 ai/                                    # AI courses (Anthropic, etc.)
-├── 📁 exercism/                              # Exercism solutions
-├── 📁 hackerank/                             # HackerRank challenges
+├── 📁 ai/                                    # AI/ML courses and learning materials
+│   └── courses/
+│       └── anthropic/                        # Anthropic AI courses
+├── 📁 exercism/
+│   └── python/                               # Exercism Python track solutions
+├── 📁 hackerank/
+│   └── python/                               # HackerRank Python challenges
 ├── 📁 media/                                 # Screenshots and images
 ├── 📁 python/
 │   └── courses/                              # Python course materials
 │       ├── michigan/                         # University of Michigan
+│       ├── scrimba/                          # Scrimba Python 101 (24 exercises)
 │       ├── udemy/                            # Udemy courses
-│       ├── university-of-colorado-boulder/   # University of Colorado Boulder
-│       └── university-of-toronto/            # University of Toronto
+│       ├── university-of-colorado-boulder/   # CU Boulder Python courses
+│       └── university-of-toronto/            # U of Toronto programming courses
 ├── 📁 usp/                                   # University of São Paulo coursework
 ├── 🐍 playground.py                          # Scratch file for quick tests
 └── 📓 project-euler.ipynb                    # Project Euler problem solutions
@@ -53,7 +58,7 @@ programming-studies/
 ### University of Michigan
 
 - **Python for Everybody**
-  - Getting started with Python
+  - Getting Started with Python
   - Python Data Structures
 
 ### University of Colorado Boulder
@@ -65,21 +70,35 @@ programming-studies/
 
 - **Learn to Program**
   - The Fundamentals
-  - Crafting Quality Code
+  - Crafting Quality Code (Sorting algorithms: Bubble, Selection, Insertion)
+
+### Scrimba
+
+- **Python 101** - 24 exercises covering:
+  - Fundamentals (variables, data types, strings, lists)
+  - Control flow (conditionals, loops)
+  - Functions and data structures (sets, dictionaries)
+  - Classes and OOP (Pizza Builder)
+  - Practice challenges (coffee queue, phone normalizer, access control, etc.)
 
 ### Udemy
 
 - Python 3 courses and practical projects
 
+### Anthropic
+
+- AI Fluency for Students
+
 ---
 
 ## 💻 Practice Platforms
 
-| Platform | Focus | Status |
-|----------|-------|--------|
-| 🏋️ [Exercism](https://exercism.org/) | Code practice & mentorship | Active |
-| 💼 [HackerRank](https://www.hackerrank.com/) | Algorithm challenges | Active |
-| 🧮 [Project Euler](https://projecteuler.net/) | Mathematical problems | In Progress |
+| Platform | Focus | Files |
+|----------|-------|-------|
+| 🏋️ [Exercism](https://exercism.org/) | Code practice & mentorship | 5 exercises |
+| 💼 [HackerRank](https://www.hackerrank.com/) | Algorithm challenges | 6 challenges |
+| 🧮 [Project Euler](https://projecteuler.net/) | Mathematical problems | In progress |
+| 🎯 [Scrimba](https://scrimba.com/) | Interactive Python course | 24 exercises |
 
 ---
 
