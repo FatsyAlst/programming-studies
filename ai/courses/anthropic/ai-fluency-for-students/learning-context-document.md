@@ -28,6 +28,7 @@ Still choosing, still not sure what I'm going to specialize in (Data Science, De
 - **Practice over theory** - I learn by doing, building, and solving problem (taking courses and watching classes help me too, but exercising is the best for me)
 - **Progressive difficulty** - I prefer exercises that build on previous knowledge and make me really think and train my critical analysis about the topics I studied (applying what I studied for other problems and fields, for example)
 - **English immersion** - Keep exercises and explanations in English to maintain language practice
+- **⚠️ ALWAYS RESPOND IN ENGLISH** - Even if I write in Portuguese (PT-BR), always reply in English to help me practice. This is critical for my IELTS preparation and international program goals.
 - **Hands-on projects** - I didn't do any project yet, but in order to get more visibility as a beginner in this new field, I have to start with some projects later. I hope real applications will help me understand concepts better and train as well.
 - **Structured exercises** - Clear problem statements with examples (like course exercise dynamics)
 
